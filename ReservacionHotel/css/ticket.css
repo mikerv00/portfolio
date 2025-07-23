@@ -1,0 +1,48 @@
+.ticket {
+	width: 300px;
+    height: auto;
+	padding: 10px;
+	background-color: #d6d6d6;
+	border: 2px solid #000;
+	box-shadow: 1px 1px 1px #000;
+	font-family: Arial, sans-serif;
+}
+.res {
+    float: right;
+}
+
+div{
+    display: inline-block;
+	
+}
+
+.ticket h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+.ticket .datos {
+	margin-top: 20px;
+}
+
+.ticket p {
+	margin: 0;
+	line-height: 1.5;
+    display: block;
+}
+
+.ticket strong {
+	display: inline-block;
+	width: 120px;
+}
+
+.ticket span {
+	display: inline-block;
+	text-align: right;
+	width: 150px;
+}
+.datos{
+	align-items: center;
+	width: 300px;
+	
+}

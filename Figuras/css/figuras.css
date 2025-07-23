@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-size:16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+	text-align:center;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    background-color: #380e20;
+    color: #eeeeee;
+}
+section{
+    font-size: 20px;
+    display: block;
+    padding-top: 1rem;
+    margin: 0 auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+select{
+    border-radius: 15px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: #535353;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+#opciones:hover{
+    background-color: #27161d;
+}
+
+.escribir{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(226, 191, 151);
+    color: #141414;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+.caja{
+    width:99%;
+    padding:10px;
+    margin:10px auto;
+    text-align:center;
+    display:none;
+}
+.res{
+    width:99%;
+    line-height:35px;
+    border:solid 2px #4e0000;
+    padding:10px;
+    margin:10px auto;
+    text-align: center;
+    color: #200005;
+    background-color: #ffecda;
+}
+
+.boton{
+    border: none;
+    border-radius: 30px;
+    background-color: #463218;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    margin-left: 3rem;
+}
+.boton:hover{
+    background-color: #706c59;
+}
+
+input,label{
+    vertical-align: middle;
+}
+
+img{
+    width: 90px;
+    height: auto;
+    vertical-align: middle;
+}

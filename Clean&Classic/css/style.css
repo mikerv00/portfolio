@@ -1,0 +1,100 @@
+@font-face{
+  font-family:"a";
+  src:url("../fonts/Poppins-Light.ttf");
+}
+@font-face{
+  font-family:"b";
+  src:url("../fonts/IMFellFrenchCanon-Regular.ttf");
+}
+
+.header-h{
+  color:#332B1F;
+  font-size:50px;
+  margin-top:50px;
+  font-family: "b";
+  margin-bottom:50px;
+}
+p{
+  font-family:"a";
+}
+
+/*menu principal*/
+#menuPrincipal{
+  color:#CCBCA5;
+  font-family: "b";
+}
+#imgLogo{
+  margin: 5px 15px;
+  height:50px;
+  width:auto;
+}
+.menuTextos{
+  padding: 0 10px;
+}
+
+/*header*/
+header{
+  background-image:url("../images/car1.jpg");
+  background-attachment:fixed;
+  min-height:500px;
+  background-size:cover;
+}
+.bg-color{
+  background-color:  #CCBCA590;
+  min-height:630px;
+}
+.textSec{
+
+}
+.textSec > h1{
+  font-family: "b";
+  font-size:80px;
+  margin-top:30px;
+}
+
+/*articulos*/
+.imgCard{
+  height:300px;
+  object-fit: cover;
+}
+
+/*acerca*/
+#acerca{
+  height:430px;
+  margin-top:50px;
+  margin-bottom:50px;
+  background-color:#CCBCA5;
+}
+#acerca-img{
+  background:url(../images/car2.jpg) no-repeat left top;
+  background-color:#80715B90;
+  background-size:cover;
+  height:430px;
+}
+.acerca-texto{
+  padding:30px 100px 100px 100px;
+}
+#contacto{
+  height:430px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/*footer*/
+.redesSec{
+  padding-top:20px;
+  padding-bottom:30px;
+  background-color:#7a8185;
+}
+.imgSocial{
+  height:45px;
+}
+.redesA{
+  text-decoration:none;
+  padding:0px 15px;
+}
+.header-h2{
+  font-size:40px;
+  font-family:"b";
+  color:#30414a;
+} 

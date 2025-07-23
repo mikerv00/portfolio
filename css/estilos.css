@@ -1,0 +1,100 @@
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #8b4513, #5d4037, #3a3a3a) no-repeat;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    color: #ffcc80;
+  }
+
+  article {
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgba(33, 33, 33, 0.9);
+    border-radius: 15px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .caja {
+    flex-basis: 48%;
+    margin-bottom: 2rem;
+    transition: transform 0.3s;
+  }
+/* 
+  .caja:hover {
+    transform: scale(1.05);
+  } */
+
+  .cajabtn {
+    font-size: 1.6rem;
+    color: #ffcc80;
+    border-bottom: 2px solid #ffcc80;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .caja-contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caja-contenido a {
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(to bottom right, #8b4513, #5d4037, #535353);
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s, transform 0.3s;
+  }
+
+  .caja-contenido a:hover {
+    background: linear-gradient(to bottom right, #d2691e, #a0522d, #8b4513);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .caja-contenido a:active {
+    transform: translateY(2px);
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  @media (max-width: 768px) {
+    .caja {
+      flex-basis: 100%;
+    }
+  }

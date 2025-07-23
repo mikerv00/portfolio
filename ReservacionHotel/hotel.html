@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Reservas de habitaciones</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" type="image/png" href="https://img.freepik.com/vector-gratis/edificio-hotelero-ciudad_52683-10040.jpg?w=740&t=st=1679085684~exp=1679086284~hmac=06c7d943f6288e71bac922e18d88c8e9fd92c7f54ca8296563e173670aeae90e">
+    <title>Hotel Reservaciones</title>
+</head>
+<body>
+	<header>
+		Reservas de habitaciones
+	</header>
+	<section>
+		<article>
+        <img src="img/individual.jpg">
+        <h3>Habitación</h3>
+            <button onclick="seleccionarHabitacion('Individual')">Seleccionar habitación</button>
+        </article>
+        <article>
+            <img src="img/doble.jpg">
+            <h3>Habitación doble</h3>
+            <button onclick="seleccionarHabitacion('Doble')">Seleccionar habitación</button>
+        </article>
+        <article>
+            <img src="img/triple.jpg">
+            <h3>Habitación triple</h3>
+            <button onclick="seleccionarHabitacion('Triple')">Seleccionar habitación</button>
+        </article>
+        <article>
+            <img src="img/cuadruple.jpg">
+            <h3>Habitación cuádruple</h3>
+            <button onclick="seleccionarHabitacion('Cuadruple')">Seleccionar habitación</button>
+        </article>
+        <article>
+            <img src="img/suite.jpg">
+            <h3>Suite</h3>
+            <button onclick="seleccionarHabitacion('Suite')">Seleccionar habitación</button>
+        </article>
+        <article>
+            <img src="img/suite presidencial.jpg">
+            <h3>Suite presidencial</h3>
+            <button onclick="seleccionarHabitacion('Suite-Presidencial')">Seleccionar habitación</button>
+        </article>
+    </section>
+    <section>
+        <article id="mostrar-res">
+
+        </article>
+    </section>
+        <script src="js/script.js"></script>
+</body>
+</html>
